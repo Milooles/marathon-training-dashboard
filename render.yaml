@@ -13,8 +13,4 @@ services:
       - key: STRAVA_REDIRECT_URI
         sync: false
       - key: DB_PATH
-        value: /data/tracker.db
-    disk:
-      name: tracker-data
-      mountPath: /data
-      sizeGB: 1
+        value: tracker.db
